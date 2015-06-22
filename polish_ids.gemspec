@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'Polish IDs'
+  s.name        = 'polish_ids'
   s.version     = '0.0.0'
   s.date        = '2015-06-20'
   s.summary     = "Gem for polish ids and passport validation"
