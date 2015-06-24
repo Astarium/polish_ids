@@ -32,7 +32,7 @@ module PolishIds
     def multiply_number
       @sum = 0
       number_array.each_with_index do |letter, index|
-        @sum = sum + value_hash[letter.to_sym] * multipliers[index]
+        @sum = sum + value_hash[letter] * multipliers[index]
       end
     end
 
